@@ -7,8 +7,9 @@ public class Rectangle extends Form {
 	
 	public Rectangle(double x, double y, double width, double length) {
 		super(x, y);
-		this.width = width;
-		this.length = length;
+		setWidth(width);
+		setLength(length);
+		
 	}
 
 	public double getWidth() {
@@ -16,7 +17,11 @@ public class Rectangle extends Form {
 	}
 
 	public void setWidth(double width) {
-		this.width = width;
+		if(width <= 0) {
+			System.err.println("width has to be > 0");
+		} else {
+			this.width = width;
+		}
 	}
 
 	public double getLength() {
@@ -24,15 +29,19 @@ public class Rectangle extends Form {
 	}
 
 	public void setLength(double length) {
-		this.length = length;
+		if(length <= 0) {
+			System.err.println("length has to be > 0");
+		} else {
+			this.length = length;
+		}
 	}
-
+	
 	public double calculateArea() {
-		return this.width*2;
+		return this.width*this.length;
 	}
-
+	
 	public double calculateCircumference() {
-		return (this.width+this.length);
+		return 2*(this.width+this.length);
 	}
 	
 	public String toString() {

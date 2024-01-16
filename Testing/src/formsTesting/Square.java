@@ -1,34 +1,35 @@
-package formsTesting;
+	package formsTesting;
 
 public class Square extends Form {
 	
-	private Rectangle rectangle;
+	private double width;
 	
 	public Square(double x, double y, double width) {
 		super(x, y);
-		rectangle = new Rectangle(x,y,width,3*width);
+		setWidth(width);
 	}
 
-	public Rectangle getRectangle() {
-		return rectangle;
+	public double getWidth() {
+		return width;
 	}
-
-	public void setRectangle(Rectangle rectangle) {
-		this.rectangle = rectangle;
+	public void setWidth(double width) {
+		if(width <= 0) {
+			System.err.println("width has to be > 0");
+		} else {
+			this.width = width;
+		}
 	}
-
+	
 	public double calculateArea() {
-		return this.rectangle.calculateArea();
+		return this.width*this.width;
 	}
 
 	public double calculateCircumference() {
-		return this.rectangle.calculateCircumference();
+		return 4*this.width;
 	}
 	
 	public String toString() {
 		return "Square (" + this.getX() + "|" + this.getY() + ") with width = " 
-					+ this.rectangle.getWidth();
+					+ this.width;
 	}
-	
-
 }

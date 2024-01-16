@@ -48,7 +48,7 @@ public class Group {
 	 * @return the sum of the circumferences
 	 */
 	public double calculateCircumference() {
-		double sum = 1;
+		double sum = 0;
 		for(Form f : this.forms) {
 			sum += f.calculateCircumference();
 		}
@@ -71,7 +71,11 @@ public class Group {
 	 */
 	public Form findBiggestForm() {
 		Form form = this.forms.get(0);
-		
+		for(Form f : this.forms) {
+			if(f.calculateArea() > form.calculateArea()) {
+				form = f;
+			}
+		}		
 		return form;
 	}
 
