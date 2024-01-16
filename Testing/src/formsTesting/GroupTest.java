@@ -14,7 +14,7 @@ public class GroupTest {
 		group.addForm(square2);
 		group.addForm(square3);
 		double result = group.calculateArea();
-		Assert.assertEquals(result, 25+0+0);
+		Assert.assertEquals(result, 25);
 	}
 
 	@Test
@@ -27,7 +27,7 @@ public class GroupTest {
 		group.addForm(square2);
 		group.addForm(square3);
 		double result = group.calculateCircumference();
-		Assert.assertEquals(result, 20+0+0);
+		Assert.assertEquals(result, 20);
 	}
 	
 	@Test
@@ -47,7 +47,7 @@ public class GroupTest {
 		group.addForm(rectangle1);
 		group.addForm(square2);
 		group.addForm(circle2);
-		group.addForm(rectangle2);
+		group.addForm(rectangle2);	
 		group.addForm(square3);
 		group.addForm(circle3);
 		group.addForm(rectangle3);
@@ -56,7 +56,7 @@ public class GroupTest {
 	}
 	
 	@Test
-	public void testPrintAll() {
+	public void testPrintForms() {
 		Group group = new Group();
 		Square square1 = new Square(0, 0, 5);
 		Square square2 = new Square(0, 0, 0);
