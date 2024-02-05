@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="formsTesting.GroupTest">
+      <class name="Test.CalculationTest">
         <methods>
-          <include name="testPrintAll"/>
+          <include name="FindMax"/>
         </methods>
-      </class> <!-- formsTesting.GroupTest -->
+      </class> <!-- Test.CalculationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

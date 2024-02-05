@@ -16,7 +16,7 @@ public class TriangleTest {
 		Triangle triangle = new Triangle(0, 0, 6, 4);
 		double result = triangle.calculateCircumference();
 		Assert.assertEquals(result, 16);
-	}
+	}	
 
 	@Test
 	public void testAreaAt0() {
