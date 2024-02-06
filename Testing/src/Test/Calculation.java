@@ -40,13 +40,22 @@ public class Calculation {
         StringBuilder result=new StringBuilder();  
         StringTokenizer tokenizer=new StringTokenizer(str," ");  
   
-        while(tokenizer.hasMoreTokens()){  
-        StringBuilder sb=new StringBuilder();  
-        sb.append(tokenizer.nextToken());  
-        sb.reverse();  
-  
-        result.append(sb);   
-        }  
+        if(str == " ") {
+        	return str;
+        }else {
+			while (tokenizer.hasMoreTokens()) {
+				StringBuilder sb = new StringBuilder();
+				sb.append(tokenizer.nextToken());
+				sb.reverse();
+
+				result.append(sb);
+				if (tokenizer.hasMoreTokens()) {
+					result.append(" ");
+				}
+			}
+        }
+         
+        System.out.println(result.toString());
         return result.toString();  
     }  
     

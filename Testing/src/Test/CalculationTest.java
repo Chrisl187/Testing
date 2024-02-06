@@ -25,11 +25,15 @@ public class CalculationTest {
 		String result3 = Calculation.reverseWord("!");
 		String result4 = Calculation.reverseWord("Rinderkennzeichnungsfleischetikettierungsüberwachungsaufgabenübertragungsgesetz");
 		String result5 = Calculation.reverseWord("$%/()");
+		String result6 = Calculation.reverseWord("aileruA gam nimrA");
+		String result7 = Calculation.reverseWord(" ");
 		Assert.assertEquals(result1, "fesoJ");
 		Assert.assertEquals(result2, "");
 		Assert.assertEquals(result3, "!");
 		Assert.assertEquals(result4, "ztesegsgnugartrebünebagfuasgnuhcawrebüsgnureittekitehcsielfsgnunhcieznnekredniR");
 		Assert.assertEquals(result5, ")(/%$");
+		Assert.assertEquals(result6, "Aurelia mag Armin");
+		Assert.assertEquals(result7, " ");
 	}
 
 	@Test
