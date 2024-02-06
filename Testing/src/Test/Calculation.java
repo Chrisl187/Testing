@@ -67,6 +67,9 @@ public class Calculation {
      */
     public static double toThePowerOf(int base, int exponent) {
     	double result = 1;
+    	if(base == 0 && exponent < 0) {
+    		return 0;
+    	}
     	if(exponent > 0) {
     		for(int i = 0; i < exponent; i++) {
     		result *= base;

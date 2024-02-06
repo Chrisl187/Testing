@@ -42,7 +42,7 @@ public class CalculationTest {
 		double result2 = Calculation.toThePowerOf(3,-2);
 		double result3 = Calculation.toThePowerOf(3,0);
 		double result4 = Calculation.toThePowerOf(0,3);
-		//double result5 = Calculation.toThePowerOf(0,-3);
+		double result5 = Calculation.toThePowerOf(0,-3);
 		double result6 = Calculation.toThePowerOf(0,0);
 		double result7 = Calculation.toThePowerOf(-2,2);
 		double result8 = Calculation.toThePowerOf(-2,-3);
@@ -51,7 +51,7 @@ public class CalculationTest {
 		Assert.assertEquals(result2, 0,11);
 		Assert.assertEquals(result3, 1);
 		Assert.assertEquals(result4, 0);
-		//Assert.assertEquals(result5, 0);
+		Assert.assertEquals(result5, 0);
 		Assert.assertEquals(result6, 1);
 		Assert.assertEquals(result7, 4);
 		Assert.assertEquals(result8, 0.125);
@@ -72,14 +72,11 @@ public class CalculationTest {
 		int result5 = Calculation.findMax(arr5);
 		int[] arr6 = {4};
 		int result6 = Calculation.findMax(arr6);
-		//int[] arr7 = {};
-		//int result7 = Calculation.findMax(arr7);
 		Assert.assertEquals(result1, 7);
 		Assert.assertEquals(result2, 8);
 		Assert.assertEquals(result3, 9);
 		Assert.assertEquals(result4, -4);
 		Assert.assertEquals(result5, -1);
 		Assert.assertEquals(result6, 4);
-		//Assert.assertEquals(result7, );
 	}
 }
