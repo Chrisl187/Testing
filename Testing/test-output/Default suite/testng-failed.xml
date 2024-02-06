@@ -5,7 +5,7 @@
     <classes>
       <class name="Test.CalculationTest">
         <methods>
-          <include name="FindMax"/>
+          <include name="testReverseWord"/>
         </methods>
       </class> <!-- Test.CalculationTest -->
     </classes>
