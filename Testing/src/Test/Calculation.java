@@ -66,24 +66,6 @@ public class Calculation {
      * @return base to the power of exponent
      */
     public static double toThePowerOf(int base, int exponent) {
-    	double result = 1;
-    	if(base == 0 && exponent < 0) {
-    		return 0;
-    	}
-    	if(exponent > 0) {
-    		for(int i = 0; i < exponent; i++) {
-    		result *= base;
-    		}
-    	}else {
-    		for(int i = 0; i > exponent; i--) {
-    			if(base < 0) {
-    				result /= base*(-1);
-    			}else {
-    				
-    			}
-        		
-        	}
-    	}
-    	return result;
+    	return Math.pow(base, exponent);
     }
 }  

@@ -5,7 +5,7 @@
     <classes>
       <class name="Test.CalculationTest">
         <methods>
-          <include name="testReverseWord"/>
+          <include name="testToThePowerOf"/>
         </methods>
       </class> <!-- Test.CalculationTest -->
     </classes>

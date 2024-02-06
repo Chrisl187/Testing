@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-06T10:03:06 MEZ" name="Default suite" finished-at="2024-02-06T10:03:06 MEZ" duration-ms="61">
+  <suite started-at="2024-02-06T10:11:14 MEZ" name="Default suite" finished-at="2024-02-06T10:11:14 MEZ" duration-ms="55">
     <groups>
     </groups>
-    <test started-at="2024-02-06T10:03:06 MEZ" name="Default test" finished-at="2024-02-06T10:03:06 MEZ" duration-ms="61">
+    <test started-at="2024-02-06T10:11:14 MEZ" name="Default test" finished-at="2024-02-06T10:11:14 MEZ" duration-ms="55">
       <class name="Test.CalculationTest">
-        <test-method signature="FindMax()[pri:0, instance:Test.CalculationTest@31e5415e]" started-at="2024-02-06T10:03:06 MEZ" name="FindMax" finished-at="2024-02-06T10:03:06 MEZ" duration-ms="12" status="PASS">
+        <test-method signature="FindMax()[pri:0, instance:Test.CalculationTest@31e5415e]" started-at="2024-02-06T10:11:14 MEZ" name="FindMax" finished-at="2024-02-06T10:11:14 MEZ" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FindMax -->
-        <test-method signature="testCube()[pri:0, instance:Test.CalculationTest@31e5415e]" started-at="2024-02-06T10:03:06 MEZ" name="testCube" finished-at="2024-02-06T10:03:06 MEZ" duration-ms="2" status="PASS">
+        <test-method signature="testCube()[pri:0, instance:Test.CalculationTest@31e5415e]" started-at="2024-02-06T10:11:14 MEZ" name="testCube" finished-at="2024-02-06T10:11:14 MEZ" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCube -->
-        <test-method signature="testReverseWord()[pri:0, instance:Test.CalculationTest@31e5415e]" started-at="2024-02-06T10:03:06 MEZ" name="testReverseWord" finished-at="2024-02-06T10:03:06 MEZ" duration-ms="2" status="PASS">
+        <test-method signature="testReverseWord()[pri:0, instance:Test.CalculationTest@31e5415e]" started-at="2024-02-06T10:11:14 MEZ" name="testReverseWord" finished-at="2024-02-06T10:11:14 MEZ" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testReverseWord -->
-        <test-method signature="testToThePowerOf()[pri:0, instance:Test.CalculationTest@31e5415e]" started-at="2024-02-06T10:03:06 MEZ" name="testToThePowerOf" finished-at="2024-02-06T10:03:06 MEZ" duration-ms="1" status="PASS">
+        <test-method signature="testToThePowerOf()[pri:0, instance:Test.CalculationTest@31e5415e]" started-at="2024-02-06T10:11:14 MEZ" name="testToThePowerOf" finished-at="2024-02-06T10:11:14 MEZ" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testToThePowerOf -->

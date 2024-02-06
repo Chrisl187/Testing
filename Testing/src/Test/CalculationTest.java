@@ -69,7 +69,7 @@ public class CalculationTest {
 		int[] arr4 = {-4,-5,-6,-7};
 		int result4 = Calculation.findMax(arr4);
 		int[] arr5 = {-4,-5,-6,-1};
-		int result5 = Calculation.findMax(arr5);
+		int result5 = Calculation.findMax(arr5);	
 		int[] arr6 = {4};
 		int result6 = Calculation.findMax(arr6);
 		Assert.assertEquals(result1, 7);
